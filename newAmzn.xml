@@ -4,6 +4,8 @@
 	  <test thread-count="5" name="Default test" verbose="2">
 	  <parameter name="browser" value="chrome"></parameter>
   <parameter name="url" value="https://www.amazon.in/" />
+  <parameter name="userid" value="lordzeus4646@gmail.com" />
+  <parameter name="password" value="Lord@123" />
    <parameter name="search" value="mobiles" />
    <classes>
       <class name="gitprojct.PomAmazn"/>
@@ -12,6 +14,8 @@
    <test thread-count="5" name="EdgeTest" verbose="2">
    <parameter name="browser" value="Edge"></parameter>
    <parameter name="url" value="https://www.amazon.in/" />
+   <parameter name="userid" value="lordzeus4646@gmail.com" />
+   <parameter name="password" value="Lord@123" />
    <parameter name="search" value="mobiles" />
     <classes>
       <class name="gitprojct.PomAmazn"/>
@@ -20,6 +24,8 @@
    <test thread-count="5" name="FirefoxTest" verbose="2">
    <parameter name="browser" value="firefox"></parameter>
   <parameter name="url" value="https://www.amazon.in/" />
+  <parameter name="userid" value="lordzeus4646@gmail.com" />
+  <parameter name="password" value="Lord@123" />
    <parameter name="search" value="mobiles" />
     <classes>
       <class name="gitprojct.PomAmazn"/>
